@@ -9,8 +9,6 @@ import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import GoalsPage from './components/GoalsPage';
 import Login from './components/Login';
-
-
 export default function App() {
   const [showLogin, setShowLogin] = useState(false);
 
