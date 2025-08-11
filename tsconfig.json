@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "target": "es6",
+    "lib": ["dom", "es2015"],
+    "jsx": "react-jsx",
     "moduleResolution": "node",
-    "types": ["react", "react-dom"],
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    
+    "strict": true,
+    "module": "esnext",
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   },
   "include": ["src"]
 }
